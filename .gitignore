@@ -45,3 +45,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.jpg
+Dataset/test/lfpw_test_249_bbox.txt
+*.mat
