@@ -13,7 +13,7 @@ opts.networkType        = 'simplenn';
 opts.expDir      = fullfile(vl_rootnn, 'data', 'regression' );
 [opts, varargin] = vl_argparse(opts, varargin);
 opts.dataDir     = fullfile(vl_rootnn, 'data', 'train');
-opts.imdbPath    = fullfile(opts.expDir, 'imdb2.mat');
+opts.imdbPath    = fullfile(opts.expDir, 'imdb3.mat');
 opts.train       = struct();
 opts             = vl_argparse(opts, varargin);
 

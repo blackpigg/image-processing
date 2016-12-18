@@ -91,8 +91,8 @@ net.layers{end+1} = struct(...
 % TODO: Meta parameters
 
 net.meta.inputSize              = [inputsize inputsize 1];
-net.meta.trainOpts.learningRate = 0.001;
-net.meta.trainOpts.numEpochs    = 20;
+net.meta.trainOpts.learningRate = 0.0005;
+net.meta.trainOpts.numEpochs    = 10;
 net.meta.trainOpts.batchSize    = 100;
 
 % Fill in defaul values

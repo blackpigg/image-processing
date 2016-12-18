@@ -4,6 +4,10 @@ clear;
 % [주목!] 아래 경로는 본인의 환경에 맞춰 설정해주세요.
 MCN_DIR_BASE = 'c:/Workspace/matconvnet';
 
+global responseBackup;
+global shuffle;
+responseBackup = cell(0);
+shuffle =[];
 % ManConvNet 셋업
 run(fullfile(MCN_DIR_BASE, 'matlab/vl_setupnn'));
 disp('vl_setup is completed');

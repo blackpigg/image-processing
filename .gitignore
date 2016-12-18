@@ -48,3 +48,7 @@ Temporary Items
 *.jpg
 Dataset/test/lfpw_test_249_bbox.txt
 *.mat
+*.txt
+data/regression/experiment2(8000-10000)/net-train.pdf
+*.dat
+Dataset/train/Input/Weight_EN0.bin

@@ -13,8 +13,10 @@ end
 %==========================================================================
 function [images, labels] = getSimpleNNBatch(imdb, batch)
 %==========================================================================
+global shuffle;
 images = imdb.images.data(:, :, :, batch);
 labels = imdb.images.labels(1:10, batch);
+shuffle = [shuffle, batch];
 end
 
 

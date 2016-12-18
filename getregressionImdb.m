@@ -20,7 +20,7 @@ dataMean = single(mean(data));
 data = single(data);
 labels = double(reshape(temp, 10, 10000));
 
-set      = [ones(1,8000) 3*ones(1, 2000)];
+set      = [ones(1,7000) 3*ones(1, 2000) ones(1,1000)];
 
 data     = bsxfun(@minus, data, dataMean) ;
 
@@ -35,4 +35,6 @@ imdb.meta.sets    = {'train', 'val', 'test'};
 % imdb.meta.classes = ...
 %     arrayfun(@(x)sprintf('%d',x), 0:9, 'uniformoutput', false);
 
+save imdb3.mat imdb -v7.3
 end
+
