@@ -52,3 +52,9 @@ Dataset/test/lfpw_test_249_bbox.txt
 data/regression/experiment2(8000-10000)/net-train.pdf
 *.dat
 Dataset/train/Input/Weight_EN0.bin
+*.pdf
+Dataset/train/FacePartDetect.exe
+*.bin
+Dataset/train/opencv_core231.dll
+*.dll
+Dataset/train/TestNet.exe
